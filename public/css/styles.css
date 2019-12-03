@@ -1,0 +1,30 @@
+html, body{ height:100%; margin:0; }
+
+header{ height:50px; }
+
+footer{ height:50px; }
+
+body{ 
+    display:flex; 
+    flex-direction:column; 
+}
+
+.main-container {
+    margin-top: 30px;
+}
+
+.color-used {
+    background-color: #e3f2fd;
+}
+
+.footer {
+    margin-top:auto;
+    vertical-align: middle !important;
+}
+
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 15px;
+        padding-left: 0% !important;
+    }
+}
